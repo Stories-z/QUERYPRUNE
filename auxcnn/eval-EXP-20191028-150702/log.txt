@@ -1,3 +1,0 @@
-2019-10-28 15:07:02,925 gpu device = 2
-2019-10-28 15:07:02,925 args = Namespace(arch='DARTS', auxiliary=False, auxiliary_weight=0.4, batch_size=300, code_size=32, cutout=False, cutout_length=16, data='../data', dataset_name='CUB_200_2011', drop_path_prob=0.2, epochs=600, gpu='2', grad_clip=5, init_channels=16, layers=4, learning_rate=0.025, load_db='Best_model.pth', load_query='weights.pt', model_path='saved_models', momentum=0.9, report_freq=50, root='../datasets', save='eval-EXP-20191028-150702', seed=0, weight_decay=0.0003)
-2019-10-28 15:07:11,348 param size = 0.100432MB
