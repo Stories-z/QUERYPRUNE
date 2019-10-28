@@ -1,0 +1,186 @@
+2019-10-28 14:53:19,358 gpu device = 3
+2019-10-28 14:53:19,359 args = Namespace(arch_learning_rate=0.0003, arch_weight_decay=0.001, batch_size=8, code_size=32, data='../data', dataset_name='CUB_200_2011', drop_path_prob=0.3, epochs=50, gpu='3', grad_clip=5, init_channels=16, layers=4, load_db='../auxDB/dumped/cub32/lud6np4x7t/Best_model.pth', model_path='saved_models', optimizer='adam_inverse_sqrt,beta1=0.9,beta2=0.98,lr=0.001', report_freq=50, root='../datasets', save='search-EXP-20191028-145319', seed=2, train_portion=0.5, unrolled=False)
+2019-10-28 14:53:22,085 param size = 0.422528MB
+2019-10-28 14:53:25,700 epoch 0
+2019-10-28 14:53:25,701 genotype = Genotype(normal=[('avg_pool_3x3', 1), ('skip_connect', 0), ('sep_conv_3x3', 1), ('max_pool_3x3', 2)], normal_concat=range(2, 4), reduce=[('dil_conv_5x5', 0), ('sep_conv_5x5', 1), ('sep_conv_5x5', 2), ('avg_pool_3x3', 0)], reduce_concat=range(2, 4))
+2019-10-28 14:53:27,786 step 0 MSE : 0.430961
+2019-10-28 14:54:33,518 step 50 MSE : 0.407134
+2019-10-28 14:55:40,164 step 100 MSE : 0.453144
+2019-10-28 14:56:46,605 step 150 MSE : 0.426382
+2019-10-28 14:57:53,162 step 200 MSE : 0.490623
+2019-10-28 14:59:00,142 step 250 MSE : 0.367539
+2019-10-28 15:00:07,483 step 300 MSE : 0.403779
+2019-10-28 15:01:14,742 step 350 MSE : 0.430800
+2019-10-28 15:01:46,619 AVERAGE MSE : 0.436381
+2019-10-28 15:01:46,684 epoch 1
+2019-10-28 15:01:46,685 genotype = Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2), ('sep_conv_5x5', 1)], normal_concat=range(2, 4), reduce=[('dil_conv_5x5', 0), ('max_pool_3x3', 1), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 15:01:48,802 step 0 MSE : 0.354672
+2019-10-28 15:02:56,106 step 50 MSE : 0.453242
+2019-10-28 15:04:03,436 step 100 MSE : 0.395758
+2019-10-28 15:05:10,715 step 150 MSE : 0.379800
+2019-10-28 15:06:17,994 step 200 MSE : 0.458614
+2019-10-28 15:07:25,354 step 250 MSE : 0.483304
+2019-10-28 15:08:32,714 step 300 MSE : 0.436411
+2019-10-28 15:09:40,128 step 350 MSE : 0.372407
+2019-10-28 15:10:12,120 AVERAGE MSE : 0.392083
+2019-10-28 15:10:12,180 epoch 2
+2019-10-28 15:10:12,181 genotype = Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 0)], normal_concat=range(2, 4), reduce=[('max_pool_3x3', 1), ('dil_conv_5x5', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 15:10:14,243 step 0 MSE : 0.351655
+2019-10-28 15:11:21,685 step 50 MSE : 0.514281
+2019-10-28 15:12:28,993 step 100 MSE : 0.317072
+2019-10-28 15:13:36,301 step 150 MSE : 0.286317
+2019-10-28 15:14:43,647 step 200 MSE : 0.323369
+2019-10-28 15:15:50,871 step 250 MSE : 0.265749
+2019-10-28 15:16:58,270 step 300 MSE : 0.307432
+2019-10-28 15:18:05,615 step 350 MSE : 0.267005
+2019-10-28 15:18:37,517 AVERAGE MSE : 0.347589
+2019-10-28 15:18:37,575 epoch 3
+2019-10-28 15:18:37,576 genotype = Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2), ('sep_conv_5x5', 1)], normal_concat=range(2, 4), reduce=[('max_pool_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 15:18:39,610 step 0 MSE : 0.300378
+2019-10-28 15:19:46,904 step 50 MSE : 0.368915
+2019-10-28 15:20:54,187 step 100 MSE : 0.381749
+2019-10-28 15:22:01,535 step 150 MSE : 0.280346
+2019-10-28 15:23:08,841 step 200 MSE : 0.310554
+2019-10-28 15:24:16,186 step 250 MSE : 0.318749
+2019-10-28 15:25:23,656 step 300 MSE : 0.281586
+2019-10-28 15:26:31,026 step 350 MSE : 0.303393
+2019-10-28 15:27:02,965 AVERAGE MSE : 0.304470
+2019-10-28 15:27:03,027 epoch 4
+2019-10-28 15:27:03,029 genotype = Genotype(normal=[('dil_conv_3x3', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('max_pool_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 15:27:05,115 step 0 MSE : 0.337964
+2019-10-28 15:28:12,397 step 50 MSE : 0.298131
+2019-10-28 15:29:19,541 step 100 MSE : 0.351119
+2019-10-28 15:30:26,614 step 150 MSE : 0.259326
+2019-10-28 15:31:33,736 step 200 MSE : 0.237660
+2019-10-28 15:32:40,955 step 250 MSE : 0.237773
+2019-10-28 15:33:48,020 step 300 MSE : 0.241387
+2019-10-28 15:34:55,370 step 350 MSE : 0.290950
+2019-10-28 15:35:27,285 AVERAGE MSE : 0.265241
+2019-10-28 15:35:27,341 epoch 5
+2019-10-28 15:35:27,342 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_5x5', 1)], normal_concat=range(2, 4), reduce=[('max_pool_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 15:35:29,380 step 0 MSE : 0.194042
+2019-10-28 15:36:36,656 step 50 MSE : 0.254603
+2019-10-28 15:37:43,451 step 100 MSE : 0.201943
+2019-10-28 15:38:50,209 step 150 MSE : 0.225357
+2019-10-28 15:39:56,998 step 200 MSE : 0.250054
+2019-10-28 15:41:04,276 step 250 MSE : 0.261210
+2019-10-28 15:42:11,603 step 300 MSE : 0.210276
+2019-10-28 15:43:18,994 step 350 MSE : 0.319383
+2019-10-28 15:43:50,949 AVERAGE MSE : 0.237325
+2019-10-28 15:43:51,017 epoch 6
+2019-10-28 15:43:51,018 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('max_pool_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 15:43:53,122 step 0 MSE : 0.209132
+2019-10-28 15:45:00,630 step 50 MSE : 0.182137
+2019-10-28 15:46:07,940 step 100 MSE : 0.202542
+2019-10-28 15:47:15,250 step 150 MSE : 0.269259
+2019-10-28 15:48:22,629 step 200 MSE : 0.194849
+2019-10-28 15:49:29,908 step 250 MSE : 0.247090
+2019-10-28 15:50:37,025 step 300 MSE : 0.219488
+2019-10-28 15:51:44,171 step 350 MSE : 0.200629
+2019-10-28 15:52:15,947 AVERAGE MSE : 0.216648
+2019-10-28 15:52:16,018 epoch 7
+2019-10-28 15:52:16,019 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 15:52:18,038 step 0 MSE : 0.211241
+2019-10-28 15:53:24,846 step 50 MSE : 0.260762
+2019-10-28 15:54:31,409 step 100 MSE : 0.159042
+2019-10-28 15:55:38,079 step 150 MSE : 0.185083
+2019-10-28 15:56:44,694 step 200 MSE : 0.154343
+2019-10-28 15:57:51,346 step 250 MSE : 0.204924
+2019-10-28 15:58:58,021 step 300 MSE : 0.200883
+2019-10-28 16:00:04,658 step 350 MSE : 0.169681
+2019-10-28 16:00:36,350 AVERAGE MSE : 0.208358
+2019-10-28 16:00:36,388 epoch 8
+2019-10-28 16:00:36,389 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_3x3', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 16:00:38,285 step 0 MSE : 0.168756
+2019-10-28 16:01:44,897 step 50 MSE : 0.154299
+2019-10-28 16:02:52,018 step 100 MSE : 0.273192
+2019-10-28 16:03:59,432 step 150 MSE : 0.181478
+2019-10-28 16:05:06,847 step 200 MSE : 0.156695
+2019-10-28 16:06:14,354 step 250 MSE : 0.215634
+2019-10-28 16:07:21,860 step 300 MSE : 0.190244
+2019-10-28 16:08:29,306 step 350 MSE : 0.192746
+2019-10-28 16:09:01,272 AVERAGE MSE : 0.203535
+2019-10-28 16:09:01,317 epoch 9
+2019-10-28 16:09:01,318 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_3x3', 1), ('sep_conv_5x5', 0), ('sep_conv_5x5', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 16:09:03,428 step 0 MSE : 0.189171
+2019-10-28 16:10:10,794 step 50 MSE : 0.179076
+2019-10-28 16:11:18,387 step 100 MSE : 0.215632
+2019-10-28 16:12:25,835 step 150 MSE : 0.156249
+2019-10-28 16:13:33,392 step 200 MSE : 0.224736
+2019-10-28 16:14:41,059 step 250 MSE : 0.204182
+2019-10-28 16:15:48,485 step 300 MSE : 0.143211
+2019-10-28 16:16:56,004 step 350 MSE : 0.148084
+2019-10-28 16:17:28,196 AVERAGE MSE : 0.197815
+2019-10-28 16:17:28,272 epoch 10
+2019-10-28 16:17:28,274 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('sep_conv_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('sep_conv_5x5', 2), ('max_pool_3x3', 0)], reduce_concat=range(2, 4))
+2019-10-28 16:17:30,570 step 0 MSE : 0.176215
+2019-10-28 16:18:38,168 step 50 MSE : 0.236262
+2019-10-28 16:19:45,576 step 100 MSE : 0.243004
+2019-10-28 16:20:53,100 step 150 MSE : 0.167396
+2019-10-28 16:22:00,696 step 200 MSE : 0.169043
+2019-10-28 16:23:08,294 step 250 MSE : 0.209782
+2019-10-28 16:24:15,902 step 300 MSE : 0.213061
+2019-10-28 16:25:23,497 step 350 MSE : 0.156581
+2019-10-28 16:25:55,650 AVERAGE MSE : 0.195169
+2019-10-28 16:25:55,718 epoch 11
+2019-10-28 16:25:55,719 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('sep_conv_5x5', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 16:25:57,925 step 0 MSE : 0.277341
+2019-10-28 16:27:05,419 step 50 MSE : 0.169617
+2019-10-28 16:28:13,029 step 100 MSE : 0.190941
+2019-10-28 16:29:20,652 step 150 MSE : 0.214074
+2019-10-28 16:30:28,180 step 200 MSE : 0.190101
+2019-10-28 16:31:35,606 step 250 MSE : 0.256531
+2019-10-28 16:32:43,167 step 300 MSE : 0.184406
+2019-10-28 16:33:50,602 step 350 MSE : 0.191108
+2019-10-28 16:34:22,531 AVERAGE MSE : 0.191674
+2019-10-28 16:34:22,589 epoch 12
+2019-10-28 16:34:22,590 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_5x5', 0), ('sep_conv_3x3', 1), ('sep_conv_5x5', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 16:34:24,593 step 0 MSE : 0.154775
+2019-10-28 16:35:32,080 step 50 MSE : 0.202755
+2019-10-28 16:36:39,628 step 100 MSE : 0.193040
+2019-10-28 16:37:47,109 step 150 MSE : 0.173734
+2019-10-28 16:38:54,585 step 200 MSE : 0.323148
+2019-10-28 16:40:01,837 step 250 MSE : 0.182858
+2019-10-28 16:41:09,095 step 300 MSE : 0.196377
+2019-10-28 16:42:16,293 step 350 MSE : 0.188989
+2019-10-28 16:42:48,362 AVERAGE MSE : 0.188992
+2019-10-28 16:42:48,441 epoch 13
+2019-10-28 16:42:48,442 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_5x5', 0), ('max_pool_3x3', 1), ('sep_conv_5x5', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 16:42:50,670 step 0 MSE : 0.185341
+2019-10-28 16:43:57,823 step 50 MSE : 0.227360
+2019-10-28 16:45:05,054 step 100 MSE : 0.237582
+2019-10-28 16:46:12,230 step 150 MSE : 0.192761
+2019-10-28 16:47:19,490 step 200 MSE : 0.177895
+2019-10-28 16:48:26,867 step 250 MSE : 0.184768
+2019-10-28 16:49:34,010 step 300 MSE : 0.226141
+2019-10-28 16:50:41,212 step 350 MSE : 0.202792
+2019-10-28 16:51:13,218 AVERAGE MSE : 0.187045
+2019-10-28 16:51:13,283 epoch 14
+2019-10-28 16:51:13,284 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_5x5', 0), ('sep_conv_5x5', 1), ('sep_conv_5x5', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 16:51:15,273 step 0 MSE : 0.149459
+2019-10-28 16:52:22,367 step 50 MSE : 0.194841
+2019-10-28 16:53:29,692 step 100 MSE : 0.204701
+2019-10-28 16:54:36,887 step 150 MSE : 0.202738
+2019-10-28 16:55:43,775 step 200 MSE : 0.201572
+2019-10-28 16:56:50,806 step 250 MSE : 0.156234
+2019-10-28 16:57:57,596 step 300 MSE : 0.192693
+2019-10-28 16:59:04,461 step 350 MSE : 0.178637
+2019-10-28 16:59:36,250 AVERAGE MSE : 0.183006
+2019-10-28 16:59:36,314 epoch 15
+2019-10-28 16:59:36,315 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_5x5', 0), ('sep_conv_5x5', 1), ('sep_conv_5x5', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 16:59:38,287 step 0 MSE : 0.131810
+2019-10-28 17:00:45,536 step 50 MSE : 0.228265
+2019-10-28 17:01:52,786 step 100 MSE : 0.191549
+2019-10-28 17:02:59,957 step 150 MSE : 0.198693
+2019-10-28 17:04:07,270 step 200 MSE : 0.196122
+2019-10-28 17:05:14,601 step 250 MSE : 0.166344
+2019-10-28 17:06:21,838 step 300 MSE : 0.175010
+2019-10-28 17:07:29,080 step 350 MSE : 0.147808
+2019-10-28 17:08:00,976 AVERAGE MSE : 0.183070
+2019-10-28 17:08:01,047 epoch 16
+2019-10-28 17:08:01,048 genotype = Genotype(normal=[('sep_conv_5x5', 1), ('max_pool_3x3', 0), ('sep_conv_5x5', 2), ('sep_conv_3x3', 1)], normal_concat=range(2, 4), reduce=[('sep_conv_5x5', 0), ('sep_conv_5x5', 1), ('sep_conv_5x5', 2), ('max_pool_3x3', 1)], reduce_concat=range(2, 4))
+2019-10-28 17:08:03,048 step 0 MSE : 0.180731
+2019-10-28 17:09:10,340 step 50 MSE : 0.181340
+2019-10-28 17:10:17,481 step 100 MSE : 0.180653
+2019-10-28 17:11:24,762 step 150 MSE : 0.197025
+2019-10-28 17:12:32,050 step 200 MSE : 0.193082

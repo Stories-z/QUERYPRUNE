@@ -1,0 +1,2 @@
+2019-10-28 14:58:38,677 gpu device = 1,2
+2019-10-28 14:58:38,677 args = Namespace(arch='DARTS', auxiliary=False, batch_size=24, code_size=32, continue_train=True, dataset_name='CUB_200_2011', drop_path_prob=0.2, epochs=600, gpu='1,2', grad_clip=5, init_channels=16, layers=4, load_db='Best_model.pth', load_query_model='', model_path='saved_models', optimizer='adam_inverse_sqrt,beta1=0.9,beta2=0.98,lr=0.001', report_freq=20, root='../datasets', save='eval-EXP-20191028-145838', seed=0)
